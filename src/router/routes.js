@@ -42,7 +42,8 @@ const OurRoutes = [
   },
   {
     path: "/home",
-    component: Home
+    component: Home,
+    beforeEnter: authGuard
   },
   {
     path: "/about",
@@ -54,7 +55,8 @@ const OurRoutes = [
   },
   {
     path: "/source",
-    component: Source
+    component: Source,
+    beforeEnter: authGuard
   },
   {
     path: "/profile",
