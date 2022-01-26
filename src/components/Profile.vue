@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-4 p-4">
+  <div id="header" class="container mt-4 p-4">
     <div>
       <button
         class="btn btn-primary"
@@ -8,7 +8,7 @@
       >
         Log out
       </button>
-      <div>
+      <div class="container mt-4 p-4">
         <img :src="$auth.user.picture" />
         <h2>{{ $auth.user.name }}</h2>
         <p>{{ $auth.user.email }}</p>
@@ -27,4 +27,8 @@ export default {
 </script>
 
 <style>
+div#header {
+  padding: 25px;
+  background-color: slategray;
+}
 </style>
