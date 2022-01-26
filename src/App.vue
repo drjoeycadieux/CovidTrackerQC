@@ -1,11 +1,6 @@
 <template>
   <div id="app">
     <router-view />
-    <div>
-      <router-link v-if="$auth.isAuthenticated" to="/profile"
-        >Profile</router-link
-      >
-    </div>
   </div>
 </template>
 
