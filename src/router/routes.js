@@ -60,7 +60,6 @@ const OurRoutes = [
   },
   {
     path: "/profile",
-    name: "profile",
     component: Profile,
     beforeEnter: authGuard
   }

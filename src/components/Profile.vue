@@ -29,6 +29,6 @@ export default {
 <style>
 div#header {
   padding: 25px;
-  background-color: slategray;
+  background-color: #2c3e50;
 }
 </style>
