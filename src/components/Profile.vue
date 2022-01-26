@@ -23,6 +23,16 @@
 <script>
 export default {
   name: "Profile",
+  data() {
+    return {};
+  },
+  methods: {
+    logout() {
+      this.$auth.logout({
+        returnTo: window.location.origin,
+      });
+    },
+  },
 };
 </script>
 

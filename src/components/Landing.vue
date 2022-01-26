@@ -49,12 +49,6 @@ export default {
     login() {
       this.$auth.loginWithRedirect();
     },
-
-    logout() {
-      this.$auth.logout({
-        returnTo: window.location.origin,
-      });
-    },
   },
 };
 </script>
