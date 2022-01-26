@@ -1,22 +1,23 @@
 <template>
   <div id="header" class="container mt-4 p-4">
-    <div>
-      <button
-        class="btn btn-primary"
-        v-if="$auth.isAuthenticated"
-        @click="logout"
-      >
-        Log out
-      </button>
-      <div class="container mt-4 p-4">
-        <img :src="$auth.user.picture" />
-        <h2>{{ $auth.user.name }}</h2>
-        <p>{{ $auth.user.email }}</p>
+    <div class="container">
+      <div class="row">
+        <div class="col"><img :src="$auth.user.picture" /></div>
+        <div class="col">
+          <h2>{{ $auth.user.name }}</h2>
+        </div>
+        <div class="col">
+          <p>{{ $auth.user.email }}</p>
+        </div>
       </div>
-      <!-- <div>
-        <pre>{{ JSON.stringify($auth.user, null, 2) }}</pre>
-      </div> -->
     </div>
+    <button
+      class="btn btn-primary"
+      v-if="$auth.isAuthenticated"
+      @click="logout"
+    >
+      Log out
+    </button>
   </div>
 </template>
 
