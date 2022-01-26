@@ -6,9 +6,6 @@
       <li><router-link to="/source">Source</router-link></li>
       <li><router-link to="/about">About</router-link></li>
       <li><router-link to="/news">News</router-link></li>
-      <router-link v-if="$auth.isAuthenticated" to="/profile"
-        >Profile</router-link
-      >
       <h3 style="font-size: 40px; justify-content: space-between">
         Covid-19 Tracker Quebec
       </h3>

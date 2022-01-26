@@ -20,15 +20,7 @@
       </h4>
     </div>
     <br />
-    <div v-if="!$auth.loading">
-      <button
-        class="btn btn-primary"
-        v-if="!$auth.isAuthenticated"
-        @click="login"
-      >
-        Log in
-      </button>
-    </div>
+    <DataHub sitename="Covid-19 Tracker Data" />
     <br />
     <hr />
     <FooterMedia />
@@ -38,17 +30,14 @@
 <script>
 import FooterMedia from "./FooterMedia";
 import Header from "./Header";
+import DataHub from "../components/DataHub";
 
 export default {
   name: "Landing",
   components: {
     Header,
     FooterMedia,
-  },
-  methods: {
-    login() {
-      this.$auth.loginWithRedirect();
-    },
+    DataHub,
   },
 };
 </script>

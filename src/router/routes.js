@@ -17,10 +17,6 @@ import Home from "../components/Home";
 import About from "../components/About";
 import News from "../components/News";
 import Source from "../components/Source";
-import Profile from "../components/Profile";
-
-// Auth Login Guard
-import { authGuard } from "../auth/authGuard";
 
 /**
  * 3)
@@ -42,8 +38,7 @@ const OurRoutes = [
   },
   {
     path: "/home",
-    component: Home,
-    beforeEnter: authGuard
+    component: Home
   },
   {
     path: "/about",
@@ -55,13 +50,7 @@ const OurRoutes = [
   },
   {
     path: "/source",
-    component: Source,
-    beforeEnter: authGuard
-  },
-  {
-    path: "/profile",
-    component: Profile,
-    beforeEnter: authGuard
+    component: Source
   }
 ];
 
