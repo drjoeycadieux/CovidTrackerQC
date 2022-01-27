@@ -33,6 +33,9 @@
             >Quebec</a
           >
         </li>
+        <li>
+          <a href="https://ourworldindata.org/coronavirus">Our World In Data</a>
+        </li>
       </ul>
     </div>
     <div class="container mt-4 p-4">
