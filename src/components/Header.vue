@@ -3,7 +3,7 @@
     <ul>
       <li><router-link to="/">Landing</router-link></li>
       <li><router-link to="/home">Home</router-link></li>
-      <li><router-link to="/source">Source</router-link></li>
+      <li><router-link to="/source">Source (Info)</router-link></li>
       <li><router-link to="/about">About</router-link></li>
       <li><router-link to="/news">News</router-link></li>
       <h3 style="font-size: 40px; justify-content: space-between">

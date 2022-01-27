@@ -35,6 +35,13 @@
         </li>
       </ul>
     </div>
+    <div class="container mt-4 p-4">
+      <iframe
+        src="https://ourworldindata.org/grapher/positive-rate-daily-smoothed?tab=table&region=NorthAmerica"
+        loading="lazy"
+        style="width: 100%; height: 600px; border: 0px none"
+      ></iframe>
+    </div>
   </div>
 </template>
 
