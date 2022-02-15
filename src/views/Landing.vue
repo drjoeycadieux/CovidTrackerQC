@@ -28,8 +28,8 @@
 </template>
 
 <script>
-import FooterMedia from "./FooterMedia";
-import Header from "./Header";
+import FooterMedia from "../components/FooterMedia";
+import Header from "../components/Header";
 import DataHub from "../components/DataHub";
 
 export default {

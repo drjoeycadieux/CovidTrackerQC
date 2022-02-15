@@ -12,11 +12,11 @@ import Router from "vue-router";
  * We then import the components of our application
  * That we want to use as pages.
  */
-import Landing from "../components/Landing";
-import Home from "../components/Home";
-import About from "../components/About";
-import News from "../components/News";
-import Source from "../components/Source";
+import Landing from "../views/Landing";
+import Home from "../views/Home";
+import About from "../views/About";
+import News from "../views/News";
+import Source from "../views/Source";
 
 /**
  * 3)

@@ -87,10 +87,10 @@
 </template>
 
 <script>
-import Header from "./Header";
-import DataBoxes from "./DataBoxes";
-import FooterPage from "./FooterPage";
-import WorldData from "./WorldData";
+import Header from "../components/Header";
+import DataBoxes from "../components/DataBoxes";
+import FooterPage from "../components/FooterPage";
+import WorldData from "../components/WorldData";
 import AgeGroup from "../components/AgeGroup";
 
 import worldWide from "../assets/data/worldWide.js";
