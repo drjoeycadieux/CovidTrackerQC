@@ -45,16 +45,19 @@
         style="width: 100%; height: 600px; border: 0px none"
       ></iframe>
     </div>
+    <FooterPage />
   </div>
 </template>
 
 <script>
 import Header from "../components/Header";
+import FooterPage from "../components/FooterPage";
 
 export default {
   name: "Source",
   components: {
     Header,
+    FooterPage,
   },
 };
 </script>

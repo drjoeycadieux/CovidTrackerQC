@@ -1,6 +1,6 @@
 const ouestMontréal = [
   {
-    cases: 179
+    cases: 48
   }
 ];
 export default ouestMontréal;

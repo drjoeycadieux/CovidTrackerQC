@@ -1,8 +1,8 @@
 const worldWide = [
   {
-    cases: 362417416,
-    deaths: 5626669,
-    fullyvaccinated: 4118349268
+    cases: 413483457,
+    deaths: 5826463,
+    fullyvaccinated: 4265470592
   }
 ];
 export default worldWide;

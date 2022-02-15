@@ -1,6 +1,6 @@
 const ddoData = [
   {
-    cases: 42
+    cases: 12
   }
 ];
 export default ddoData;

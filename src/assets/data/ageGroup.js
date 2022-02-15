@@ -1,7 +1,7 @@
 const ageGroup = [
   {
-    cases: 251,
-    cases14: 8200
+    cases: 34,
+    cases14: 812
   }
 ];
 export default ageGroup;

@@ -1,6 +1,6 @@
 const lasalleData = [
   {
-    cases: 24
+    cases: 9
   }
 ];
 export default lasalleData;

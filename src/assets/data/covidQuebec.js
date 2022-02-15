@@ -1,8 +1,8 @@
 const covidQuebec = [
   {
-    cases: 801153,
+    cases: 900273,
     recoveries: 35,
-    deaths: 12364
+    deaths: 13710
   }
 ];
 export default covidQuebec;
