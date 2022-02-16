@@ -1,2 +1,0 @@
-# CovidTrackerQC
-Created with CodeSandbox

@@ -3,6 +3,7 @@
     <Header />
     <br />
     <div class="container mt-4 p-4">
+      <GoogleForms />
       <span style="font-size: 50px" class="aria-hidden"
         ><i class="bi bi-arrow-down-right-circle-fill"></i
       ></span>
@@ -31,6 +32,7 @@
 import FooterMedia from "../components/FooterMedia";
 import Header from "../components/Header";
 import DataHub from "../components/DataHub";
+import GoogleForms from "../components/GoogleForms";
 
 export default {
   name: "Landing",
@@ -38,6 +40,7 @@ export default {
     Header,
     FooterMedia,
     DataHub,
+    GoogleForms,
   },
 };
 </script>
