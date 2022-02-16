@@ -1,6 +1,9 @@
 <template>
   <div>
     <Header />
+    <div class="container-sm">
+      <SearchEngine />
+    </div>
     <br />
     <div class="container mt-4 p-4">
       <GoogleForms />
@@ -33,6 +36,7 @@ import FooterMedia from "../components/FooterMedia";
 import Header from "../components/Header";
 import DataHub from "../components/DataHub";
 import GoogleForms from "../components/GoogleForms";
+import SearchEngine from "../components/inputs/SearchEngine";
 
 export default {
   name: "Landing",
@@ -41,6 +45,7 @@ export default {
     FooterMedia,
     DataHub,
     GoogleForms,
+    SearchEngine,
   },
 };
 </script>
