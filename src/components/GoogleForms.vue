@@ -9,7 +9,6 @@
         >Report Issues<i class="bi bi-shield-fill-plus"></i
       ></a>
     </div>
-    <hr />
   </div>
 </template>
 
