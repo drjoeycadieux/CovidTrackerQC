@@ -8,12 +8,11 @@
           >Covid-19 Tracker</router-link
         >
       </li>
-      <li><router-link to="/">Landing</router-link></li>
-      <li><router-link to="/home">Home</router-link></li>
+      <li><router-link to="/">Home</router-link></li>
       <li><router-link to="/source">Source</router-link></li>
       <li><router-link to="/about">About</router-link></li>
       <li><router-link to="/news">News</router-link></li>
-      <li><router-link to="/contact">Contact</router-link></li>
+      <!-- <li><router-link to="/contact">Contact</router-link></li> -->
     </ul>
   </div>
 </template>

@@ -12,7 +12,6 @@ import Router from "vue-router";
  * We then import the components of our application
  * That we want to use as pages.
  */
-import Landing from "../views/Landing";
 import Home from "../views/Home";
 import About from "../views/About";
 import News from "../views/News";
@@ -35,10 +34,6 @@ Vue.use(Router);
 const OurRoutes = [
   {
     path: "/",
-    component: Landing
-  },
-  {
-    path: "/home",
     component: Home
   },
   {
