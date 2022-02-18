@@ -25,7 +25,7 @@ export default {
 
 <style>
 #alerts {
-  padding: 10px;
+  padding: 5px;
   background-color: firebrick;
   color: black;
   text-align: center;
@@ -35,5 +35,6 @@ h4 {
   font-weight: bold;
   font-family: sans-serif;
   font-size: 15px;
+  padding: 1em;
 }
 </style>
