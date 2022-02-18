@@ -1,6 +1,9 @@
 <template>
   <div id="footer">
-    <hr style="color: white" />
+    <div class="container-sm">
+      <h2 style="color: white">Covid-19 Tracker Quebec</h2>
+      <hr style="color: white" />
+    </div>
     <p>
       Designed and built with
       <i style="color: pink" class="bi bi-suit-heart-fill"></i> in Montreal //

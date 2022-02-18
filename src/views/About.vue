@@ -12,7 +12,7 @@
         is concerned.
       </p>
       <span
-        ><a href="https://github.com/drjoeycadieux/Covid19Tracker-Canada"
+        ><a href="https://github.com/drjoeycadieux/CovidTrackerQC"
           ><i class="bi bi-github"></i></a
       ></span>
     </div>
