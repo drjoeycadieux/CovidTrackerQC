@@ -1,6 +1,7 @@
 <template>
   <div>
     <Header />
+    <AlertBanner />
     <br />
     <br />
     <div class="container-fluid">
@@ -77,6 +78,7 @@ import FooterPage from "../components/FooterPage";
 import WorldData from "../components/WorldData";
 import AgeGroup from "../components/AgeGroup";
 import WorldWide from "../components/WorldWide";
+import AlertBanner from "../components/alerts/AlertBanner";
 
 export default {
   name: "Home",
@@ -87,6 +89,7 @@ export default {
     WorldData,
     AgeGroup,
     WorldWide,
+    AlertBanner,
   },
   data() {
     return {};
