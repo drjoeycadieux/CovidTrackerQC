@@ -3,7 +3,6 @@
     <Header />
     <AlertBanner />
     <br />
-    <br />
 
     <div class="container-sm">
       <SiteAlert />
