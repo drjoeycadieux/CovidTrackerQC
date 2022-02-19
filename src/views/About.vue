@@ -33,5 +33,6 @@ export default {
 <style>
 span i {
   font-size: 30px;
+  color: lightslategray;
 }
 </style>
