@@ -17,6 +17,7 @@ import About from "../views/About";
 import News from "../views/News";
 import Source from "../views/Source";
 import Contact from "../views/Contact";
+import Ticket from "../views/support/Ticket";
 
 /**
  * 3)
@@ -47,6 +48,10 @@ const OurRoutes = [
   {
     path: "/source",
     component: Source
+  },
+  {
+    path: "/support/ticker",
+    component: Ticket
   },
   {
     path: "/contact",

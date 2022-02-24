@@ -4,6 +4,7 @@
     <router-link to="/">Home</router-link>
     <router-link to="/about">About</router-link>
     <router-link to="/source">Source</router-link>
+    <router-link to="/support/ticker">Ticket</router-link>
   </nav>
 </template>
 

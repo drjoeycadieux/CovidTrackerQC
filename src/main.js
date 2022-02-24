@@ -1,5 +1,6 @@
 import Vue from "vue";
 import App from "./App.vue";
+import store from "./store";
 import router from "./router/routes";
 import Navbar from "./components/Navbar";
 
@@ -8,6 +9,7 @@ Vue.component("Navbar", Navbar);
 Vue.config.productionTip = false;
 
 new Vue({
-  router: router,
+  router,
+  store,
   render: (h) => h(App)
 }).$mount("#app");
