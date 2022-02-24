@@ -30,6 +30,7 @@ export default {
   margin: 0;
 }
 div#header {
+  position: relative;
   padding: 25px;
   background-color: #2c3e50;
 }

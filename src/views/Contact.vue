@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header />
+    <Navbar />
     <div class="container mt-4 p-4">
       <h3>Contact Us | General Information</h3>
       <h5>{{ getLocalTime() }}</h5>
@@ -20,12 +20,12 @@
 import moment from "moment";
 import info from "../assets/contact/info";
 
-import Header from "../components/Header";
+import Navbar from "../components/Navbar";
 
 export default {
   name: "Contact",
   components: {
-    Header,
+    Navbar,
   },
   data() {
     return {

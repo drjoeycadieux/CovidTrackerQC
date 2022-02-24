@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header />
+    <Navbar />
     <AlertBanner />
     <br />
 
@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import Header from "../components/Header";
+import Navbar from "../components/Navbar";
 import DataBoxes from "../components/DataBoxes";
 import FooterPage from "../components/FooterPage";
 import WorldData from "../components/WorldData";
@@ -40,7 +40,7 @@ import SiteAlert from "../components/alerts/SiteAlert";
 export default {
   name: "Home",
   components: {
-    Header,
+    Navbar,
     DataBoxes,
     FooterPage,
     WorldData,
